@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>Library</title>
+</head>
+<body>
+    <div class="library">
+        <h2>My Library</h2>
+        <div class="buttons">
+            <button class="addbook">Add Book</button>
+            <button class="deletebook">Delete Book</button>
+        </div>
+
+        <dialog class="mydialog">
+            <form class="myform">
+                <label for="title">Title:</label>
+                <!-- The id and for values should match here -->
+                <input type="text" id="title" name="title">
+
+                <label for="authorName">Author:</label>
+                <input type="text" id="authorName" name="authorName">
+
+                <label for="pagesNr">Pages:</label>
+                <input type="number" id="pagesNr" name="pagesNr">
+
+                <!-- <label for="read">Read:</label>
+                <input type="checkbox" id="read" name="read"> -->
+
+                <label for="read">Read:</label>
+                <input type="checkbox" id="read" name="read">
+
+                <menu>
+                    <button type="submit" id="submit">Submit</button>
+                    <button type="button" id="cancel">Cancel</button>
+                </menu>
+            </form>
+        </dialog>
+        <div class="booksLibrary">
+            <div class="book">
+                <h4> Title: "Tropic of Cancer" </h4>
+                <h4>Author: Henry Miller</h4>
+                <h4>Pages: 290</h4>
+                <h4>Read</h4>
+            </div>
+        </div>
+    </div>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+body{
+    background-color: #243642;
+    color: aliceblue;
+}
+
+.book{
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    height: 280px;
+    width: 280px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.library{
+    display: flex;
+    flex-direction: column;
+}
+
+.booksLibrary{
+    display: flex;
+    gap: 20px;
+}
